@@ -1,6 +1,6 @@
 {
-  "name": "super-tcplayer",
-  "version": "0.2.0",
+  "name": "resynz-super-tcplayer",
+  "version": "0.0.1",
   "description": "基于腾讯web超级播放器封装的vue组件",
   "main": "dist/super-tcplayer.js",
   "scripts": {
@@ -8,20 +8,11 @@
     "start": "webpack-dev-server --hot --inline",
     "build": "webpack --display-error-details --config webpack.config.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/HeiShanLaoYao889/super-tcplayer.git"
-  },
   "keywords": [
     "web播放器",
     "tcplayer"
   ],
-  "author": "heishanlaoyao <heishanlaoyao889@126.com>",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/HeiShanLaoYao889/super-tcplayer/issues"
-  },
-  "homepage": "https://github.com/HeiShanLaoYao889/super-tcplayer#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
