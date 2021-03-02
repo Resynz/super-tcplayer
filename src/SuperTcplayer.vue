@@ -65,8 +65,8 @@
         },
         created() {
             loadExternalCSS(['//imgcache.qq.com/open/qcloud/video/tcplayer/tcplayer.css'])
-            loadExternalJS(['//imgcache.qq.com/open/qcloud/video/tcplayer/lib/hls.min.0.8.8.js',
-                '//imgcache.qq.com/open/qcloud/video/tcplayer/tcplayer.min.js'])
+            loadExternalJS(['//imgcache.qq.com/open/qcloud/video/tcplayer/libs/hls.min.0.13.2m.js',
+                '//imgcache.qq.com/open/qcloud/video/tcplayer/tcplayer.v4.1.min.js'])
         },
         methods: {
             createPlayer() {
@@ -115,6 +115,7 @@
                     sign: self.options.sign,
                     t: self.options.t,
                     us: self.options.us,
+                    psign: self.options.psign,
                 })
             },
             play() {
